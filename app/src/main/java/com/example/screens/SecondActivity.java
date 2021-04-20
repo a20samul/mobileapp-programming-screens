@@ -17,7 +17,7 @@ public class SecondActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_second);
 
-        String name = "tomten";
+        String name = "";
 
         Intent intent = getIntent();
         if (intent != null){
